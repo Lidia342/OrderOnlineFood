@@ -33,10 +33,10 @@ public class Controller {
         dobcol.setCellValueFactory(new PropertyValueFactory<>("price"));
         gendercol.setCellValueFactory(new PropertyValueFactory<>("description"));
         gendercol.setCellValueFactory(new PropertyValueFactory<>("type"));
-      //  Queries pq = new Queries();
-       // pq.viewMealsTable();
+        Queries pq = new Queries();
+       pq.viewMealsTable();
 
-        //table.setItems(pq.getObList());
+        table.setItems(pq.getObList());
 
     }
 }
